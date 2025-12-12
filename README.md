@@ -1,4 +1,4 @@
-# Arc Browser to Bookmarks Exporter
+# Arc Browser Pinned Favourite Folders, Subfolders and Pages to Bookmarks Exporter
 
 Export your pinned tabs and folders from Arc browser to a standard HTML bookmarks file that can be imported into any browser (Chrome, Brave, Firefox, Safari, Edge, etc.)
 
@@ -21,11 +21,11 @@ Arc browser doesn't have a built-in export feature for your pinned tabs and fold
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/arc-to-bookmarks.git
-cd arc-to-bookmarks
+git clone https://github.com/ditty007/ArcExporter.git
+cd ArcExporter
 
 # Run the script (it will find Arc's data automatically)
-python3 arc_to_bookmarks.py
+python3 ArcExporter.py
 
 # Import arc_bookmarks.html into your browser
 ```
